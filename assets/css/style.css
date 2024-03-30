@@ -1,0 +1,28 @@
+:root {
+    --viking: #7EB2DD;
+    --karry: #FFE8D4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--viking);
+
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width: 866px) {
+    header {
+        justify-content: center;
+    }
+}
