@@ -126,6 +126,26 @@ nav li {
     border: 2px var(--coral) dashed;
 }
 
+footer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+    font-family: var(--font);
+    font-size: 20px;
+}
+
+footer li {
+    color: white;
+    font-family: var(--font);
+    font-size: 15px;
+}
+
 @media screen and (max-width: 833px) {
     header {
         justify-content: center;
