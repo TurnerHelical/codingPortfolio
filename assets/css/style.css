@@ -1,6 +1,6 @@
 :root {
-    --karry: #FFE8D4;
     --coral: #F93943;
+    --font: Livvic, sans-serif;
 }
 
 header {
@@ -20,7 +20,7 @@ h1 {
     font-size: 80px;
     text-align: center;
     align-self: flex-end;
-    font-family: Livvic, sans-serif;
+    font-family: var(--font);
     color:white;
     padding-right: 25px;
     font-weight: lighter;
@@ -44,14 +44,47 @@ nav li {
 .link {
     text-decoration: none;
     color: black;
-    font-family: Livvic, sans-serif;
+    font-family: var(--font);
 }
 
 .link:hover {
     color: var(--coral);
 }
 
-@media screen and (max-width: 816px) {
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 150px;
+
+}
+
+.aboutMeTitle {
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: maroon;
+    color: black;
+    font-family:var(--font);
+    
+}
+
+.profilePic{
+    border-radius: 100%;
+    margin-left: 40px;
+    width: 200px;
+}
+
+.aboutMeInfo {
+    font-family: var(--font);
+    font-size: 30px;
+    margin-left: 70px;
+    width: 700px;
+    align-self: flex-end;
+    
+
+}
+
+@media screen and (max-width: 833px) {
     header {
         justify-content: center;
     }
@@ -60,11 +93,18 @@ nav li {
         margin-top: -60px;
         padding: 0px;
     }
-}
 
-@media screen and (min-width: 817px) and (max-width: 833px) {
-    header {
+    nav {
+        padding: 0px;
+    }
+
+    nav ul {
         justify-content: center;
     }
-    
+}
+
+@media  screen and (max-width: 509px) {
+    h1 {
+        font-size: 70px;
+    }
 }
