@@ -1,13 +1,13 @@
 :root {
-    --viking: #7EB2DD;
     --karry: #FFE8D4;
+    --coral: #F93943;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--viking);
+    background-color: black;
 
 }
 
@@ -20,11 +20,49 @@ h1 {
     font-size: 100px;
     text-align: center;
     align-self: flex-end;
+    font-family: Livvic, sans-serif;
+    color:white;
+    padding-right: 25px;
+    font-weight: lighter;
+}
+
+nav{
+    background-color: var(--karry);
+    padding-right: 70px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav li {
+    margin: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-family: Livvic, sans-serif;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: var(--coral);
 }
 
 @media screen and (max-width: 1015px) {
     header {
         justify-content: center;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav {
+        padding: 0;
     }
 }
 
