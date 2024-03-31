@@ -71,7 +71,9 @@ nav li {
 .profilePic{
     border-radius: 100%;
     margin-left: 40px;
+    margin-top: 50px;
     width: 200px;
+
 }
 
 .aboutMeInfo {
