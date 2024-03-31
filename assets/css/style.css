@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
     align-self: flex-end;
     font-family: Livvic, sans-serif;
@@ -27,7 +27,7 @@ h1 {
 }
 
 nav{
-    background-color: var(--karry);
+    background-color: gray;
     padding-right: 70px;
 }
 
@@ -45,29 +45,26 @@ nav li {
     text-decoration: none;
     color: black;
     font-family: Livvic, sans-serif;
-    font-weight: bold;
 }
 
 .link:hover {
     color: var(--coral);
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 816px) {
     header {
         justify-content: center;
     }
 
-    nav ul {
-        justify-content: center;
-    }
-
-    nav {
-        padding: 0;
+    h1 {
+        margin-top: -60px;
+        padding: 0px;
     }
 }
 
-@media screen and (min-width: 1016px) and (max-width: 1032px) {
+@media screen and (min-width: 817px) and (max-width: 833px) {
     header {
         justify-content: center;
     }
+    
 }
