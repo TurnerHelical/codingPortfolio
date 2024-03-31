@@ -108,6 +108,10 @@ nav li {
     border: 2px black solid;
 }
 
+#firstCardImage {
+    width: 100%;
+}
+
 .cardProjects {
     width: 25%;
     margin: 10px;
