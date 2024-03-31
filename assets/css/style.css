@@ -138,12 +138,21 @@ footer p {
     color: white;
     font-family: var(--font);
     font-size: 20px;
+    margin: 10px 0;
+}
+
+footer ul {
+    margin-bottom: 40px;
 }
 
 footer li {
     color: white;
     font-family: var(--font);
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.contactLinks {
+    color: white;
 }
 
 @media screen and (max-width: 833px) {
